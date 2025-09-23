@@ -124,7 +124,7 @@ class Block(layers.Layer):
             x = losou(x)
         return x
 
-class Sequen(tf.keras.Model):
+class LoSoULM(tf.keras.Model):
     def __init__(self, vocab_size, max_seq_len, d_model, n_layers, dropout_rate=0.1):
         super().__init__()
         self.token_embedding = layers.Embedding(vocab_size, d_model)
