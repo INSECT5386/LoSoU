@@ -1,4 +1,4 @@
-from losou import LoSoU
+from losou import LoSoULM
 from tensorflow import keras
 import sentencepiece as spm
 import os, json, numpy as np, tensorflow as tf
